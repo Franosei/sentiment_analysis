@@ -74,13 +74,13 @@ Three models were implemented and evaluated:
 2. **Activate the environment**:
 
     ```bash
-    conda activate sentiment_analysis_env
+    conda activate sentiment
     ```
 
 3. **Run the Jupyter Notebook**:
 
     ```bash
-    jupyter notebook notebooks/sentiment_analysis.ipynb
+    jupyter notebook notebook.ipynb
     ```
 
 4. Follow the steps in the notebook to preprocess the data, train the models, and evaluate their performance.
