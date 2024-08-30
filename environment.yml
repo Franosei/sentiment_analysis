@@ -1,4 +1,4 @@
-name: Cyberr
+name: sentiment
 channels:
   - defaults
   - conda-forge
