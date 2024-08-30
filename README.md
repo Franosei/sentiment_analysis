@@ -67,7 +67,7 @@ Three models were implemented and evaluated:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your_username/hotel-review-sentiment-analysis.git
+    git@github.com:Franosei/sentiment_analysis.git
     cd hotel-review-sentiment-analysis
     ```
 
