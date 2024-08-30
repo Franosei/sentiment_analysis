@@ -25,11 +25,12 @@ The project is structured in a Jupyter Notebook, with the data, models, and resu
 
 ```plaintext
 ├── data
-│   ├── hotel_reviews.csv        # Raw data used for training and testing
+│   ├── data.csv                 # Raw data used for training and testing
 ├── notebooks
-│   ├── sentiment_analysis.ipynb # Jupyter notebook with full implementation
+│   ├── notebook.ipynb           # Jupyter notebook with full implementation
 ├── environment.yml              # Conda environment file
 ├── README.md                    # Project documentation
+```
 
 ## Installation
 
@@ -44,7 +45,44 @@ To set up the environment for this project, follow these steps:
 2. **Activate the Conda environment**:
 
     ```bash
-    conda activate sentiment_analysis_env
+    conda activate sentiment
     ```
 This will install all the necessary dependencies listed in the `environment.yml` file and activate the environment for you.
+
+## Data
+
+The dataset consists of customer reviews from various hotels. Each review is labeled as either positive or negative.
+
+-**data.csv: Contains the raw review data with two columns: review (text of the review) and sentiment (label: positive or negative).**
+
+## Models
+Three models were implemented and evaluated:
+
+- **Random Forest: A robust ensemble method that operates by constructing multiple decision trees during training.**
+- **Support Vector Machine (SVM): A powerful classifier that works by finding the hyperplane that best separates the classes in a high-dimensional space.**
+- **LSTM Networks: A type of recurrent neural network (RNN) well-suited for sequence prediction tasks like sentiment analysis.**
+
+## How to Run
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/your_username/hotel-review-sentiment-analysis.git
+    cd hotel-review-sentiment-analysis
+    ```
+
+2. **Activate the environment**:
+
+    ```bash
+    conda activate sentiment_analysis_env
+    ```
+
+3. **Run the Jupyter Notebook**:
+
+    ```bash
+    jupyter notebook notebooks/sentiment_analysis.ipynb
+    ```
+
+4. Follow the steps in the notebook to preprocess the data, train the models, and evaluate their performance.
+
 
